@@ -1,0 +1,11 @@
+[build.environment]
+
+	MERMAID_DOMAIN = 'dsnplx02.dns21.socgen'
+	MERMAID_RENDERER_URL = 'https://dsnplx02.dns21.socgen:8001'
+	MERMAID_KROKI_RENDERER_URL = 'https://dsnplx02.dns21.socgen:8002'
+
+[[redirects]]
+  from = "/index.html"
+  to = "/edit"
+  status = 301
+  force = true
